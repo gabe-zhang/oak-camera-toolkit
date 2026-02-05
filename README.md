@@ -30,8 +30,8 @@ uv sync
 Set your camera's IP address:
 
 ```bash
-cp .env.example .env
-# Edit .env with your camera's IP address
+cp .env.example .env # Edit .env with your camera's IP address
+# Or
 export OAK_DEVICE_IP=<your-camera-ip>
 ```
 
