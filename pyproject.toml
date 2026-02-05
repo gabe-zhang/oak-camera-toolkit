@@ -1,0 +1,17 @@
+[project]
+name = "oak-camera-toolkit"
+version = "0.1.0"
+description = "A toolkit for OAK-D cameras featuring real-time collision avoidance, object detection, and device management."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Yuan (Gabriel) Zhang" },
+]
+dependencies = [
+    "depthai>=3.3.0",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.1.0",
+    "pysimplegui-4-foss==4.60.4.1",
+    "python-dotenv>=1.2.1",
+]
