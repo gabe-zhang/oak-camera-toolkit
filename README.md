@@ -1,5 +1,7 @@
 # OAK Camera Toolkit
 
+[![Release](https://img.shields.io/github/v/release/gabe-zhang/oak-camera-toolkit)](https://github.com/gabe-zhang/oak-camera-toolkit/releases) [![Python](https://img.shields.io/badge/python-%3E%3D3.10-blue)](https://www.python.org/) [![OpenCV](https://img.shields.io/badge/OpenCV-27338e?logo=OpenCV&logoColor=white)](https://opencv.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A toolkit for [OAK-D](https://docs.luxonis.com/) stereo cameras featuring real-time collision avoidance, object detection, and device management. Built with [DepthAI v3](https://docs.luxonis.com/software/depthai/).
 
 ## Tools
@@ -55,16 +57,10 @@ uv run device_manager.py
 
 Divides the camera's field of view into a 15x9 grid (135 regions) and calculates real-time distances using stereo depth. Objects within the critical distance are highlighted with red overlays.
 
-**Controls:**
-- Slider — adjust critical distance threshold (0.5m to 5m)
-- `q` — quit
 
 ### Detection Network
 
 Runs YOLOv6-nano inference on the RGB camera with real-time bounding boxes, class labels, and confidence scores.
-
-**Controls:**
-- `q` — quit
 
 ## Configuration
 
